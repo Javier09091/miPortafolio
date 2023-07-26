@@ -1,0 +1,104 @@
+{
+	"_version": "0.0.1",
+	"_description": "algo",
+	"user": {
+		"name": "Javier Hernandez",
+		"aboutMe":"Desarrollador web front-end. Diseño de páginas web y códificación. ",
+		"socialNetwork": [
+			{
+				"name": "facebook",
+				"urlLogo": "/media/img/iconFacebook.png",
+				"url": "https://www.facebook.com/error.error.404notfound"
+			},
+			{
+				"name": "instagram",
+				"urlLogo": "",
+				"url": "https://www.instagram.com/jav2332_/"
+			},
+			{
+				"name": "github",
+				"urlLogo": "",
+				"url": "https://github.com/Javier09091"
+			}
+			
+		]	},
+	"skills": {
+		"technical": [
+			"Ingles B2",
+			"Códificación",
+			"Diseño web",
+			"Conocimiento en algoritmos",
+			"Modelado de base de datos"
+		],
+		"soft": [
+			"Resolución de conflictos",
+			"Autodidacta",
+			"Comunicación efectiva",
+			"Trabajo en equipo",
+			"Creatividad"
+		]
+	},
+	"Projects": [
+		{
+			"name": "Intercopy",
+			"description": "Diseño y codificación de un sitio web para una papelería.",
+			"technologies": [
+				"Javascript",
+				"CSS",
+				"HTML",
+				"PHP",
+				"Figma"
+			],
+			"image": "url"
+		},
+		{
+			"name": "Reforma 22",
+			"description": "Diseño y codificación de un sitio web para una escuela.",
+			"technologies": [
+				"Javascript",
+				"CSS",
+				"HTML",
+				"PHP",
+				"Figma"
+			],
+			"image": "url"
+		},
+		{
+			"name": "Conexión de MySQL con JAVA",
+			"description": "Codificación de un programa para conectar JAVA y MYSQL, y así poder hacer operaciones de creación, lectura, actualización y eliminado de datos.",
+			"technologies": [
+				"JAVA",
+				"MySQL"
+			],
+			"image": "url"
+		},
+		{
+			"name": "Portafolio fotografico",
+			"description": "Diseño de una página web para visualizar fotografias.",
+			"technologies": [
+				"Figma"
+			],
+			"image": "url"
+		},
+		{
+			"name": "Calculadora",
+			"description": "Diseño y desarrollo de una calculadora básica.",
+			"technologies": [
+				"Figma",
+				"Javascript",
+				"CSS",
+				"HTML"
+			],
+			"image": "url"
+		},
+		{
+			"name": "Portafolio de proyectos",
+			"description": "Diseño y desarrollo de una página web que muestra los proyectos de un desarrollador.",
+			"technologies": [
+				"Figma",
+				"React"
+			],
+			"image": "url"
+		}
+	]
+}
