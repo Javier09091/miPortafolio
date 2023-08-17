@@ -1,17 +1,18 @@
 
 import Graphic from "./graphic.jsx"
+import "../styles/skills.css";
+import data from "../userdata.json";
 
-
-function Skills() {
+export default function Skills() {
   return (
-    <div>
-      <h1>Habilidades</h1>
-      <div>
+    <div id="section_skills" >
+      <h1 className="title" >Habilidades</h1>
+      <div className="graphics_container">
         <div className="technical-skills">
-          <Graphic></Graphic>
+          <Graphic skills={data.skills.technical}/>
         </div>
         <div className="soft-skills">
-            <Graphic></Graphic>
+            <Graphic skills={data.skills.soft}/>
         </div>
       </div>
     </div>
