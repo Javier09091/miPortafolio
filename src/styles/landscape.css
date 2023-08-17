@@ -1,0 +1,39 @@
+
+:root {
+  --background__color: #0B4141;
+  --menu__color: #949459;
+  --font__color: #fff;
+  --card__color1: #e6e6fa; 
+  --card__color2:#FFDAB9;
+  --card__color3: #FFA07A;
+  --font-titles: font-family: 'IBM Plex Mono', monospace;
+  --font-text: 'IBM Plex Sans', sans-serif;
+
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+}
+body{
+  background-color: var(--background__color);
+  font-family: var(--font-text);
+  color: var(--font__color);
+  
+}
+
+.main_container_landscape {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#sections {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 20px;
+
+  
+
+}
