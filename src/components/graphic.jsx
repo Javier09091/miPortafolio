@@ -1,13 +1,12 @@
+import RadarChart from "./radarChart.jsx";
 
-
-function Graphic(params) {
-  
-  return <>
-
-  <h1>Title</h1>
-  <div>
-    
-  </div>
-
-  </>
+export default function Graphic({skills}) {
+  return (
+    <div>
+      <h1>Title</h1>
+      <div>
+        <RadarChart skills={skills} />
+      </div>
+    </div>
+  );
 }
