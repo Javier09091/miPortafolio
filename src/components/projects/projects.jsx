@@ -5,35 +5,26 @@
 	
 ## Description  
 	
-[Description Details]
+Componente que muestra tarjetas sobre diferentes proyectos.
 
 ## Category   
 	
-[Visual, Structural, Functional]  
+[Visual]  
 
 ## Live demo 
 	
 [code to iframe CodeSandbox]
 
-## Installation or Implementation
-
-[example: npm install --save react-awesome-button]
-
-## Usage 
-	
-[example: <protvista-tooltip>  </protvista-tooltip> ]
 
 ## Props 
 
-| Attribute | Type | Default | Description |
-| --------- | ---- | ------- | ----------- |
-|           |      |         |             |
+| Attribute | Type | Default | Description                                      |
+| --------- | ---- | ------- | ------------------------------------------------ |
+| projects  | array|         | array de projectos con su respectiva información |
 
 
 ## Exception
-
-__Category: [Error, Warning or Message]__
-[Description of the exception (if necessary)]
+---
 
 ## License
 
@@ -41,23 +32,18 @@ MIT License
 
 ## Author 
 	
-RegulonDB Team: 
-[full developer name]
+Francisco Javier Hernandez Sanchez <l19091349@gmail.com>
 
 
 # Component (technical guide)
 
 ## Component Type 
+[Visual ]
 
-[ Driver, Visual, Application, Custom Hook, ClassComponent ]
-// Driver: It is a Component that controls interactions with users, browser, API requests, manage status or processes as well as logic related to data.
-// Visual: This component will take care of the structure and styles of our application.
-// Application: Application: is the main component of a web application or library.
-// Custom Hook: is a custom React function, which unlike the other components can return variables.
-// ClassComponent: is a tradicional React component class
 
 ## Dependencies
-[Dependency name][ Dependency details ]
+CardContainer: componentes que contiene 2 tarjetas a mostrar en el componente projects.
+projects.css: hoja de estilos que afecta al componente projects.
 
 ## States
 	
@@ -70,33 +56,6 @@ RegulonDB Team:
 | ------ | ----------- | -------- | ------------------------------ |
 |        |             |          |                                |
 
-# Functions description
-
-## [function name]
-
-__Description:__  
-
-[Description of the function]
-
-
-__Usage:__
-
-```javascript
-&function(Parameters, if any);
-```
-
-__Scope: __
-
-[Scope details]
-
-__Input Parameter:__  
-​__[Name]:__ [Description]
-__[Name]:__ [Description]
-
-
-__Return:__  
-​__[Type]:__ [Name]
-​[Description (if necessary)]
 
  
 **/
@@ -104,12 +63,26 @@ __Return:__
 import "../../styles/projects.css";
 import CardContainer from "./cardContainer.jsx";
 
+/**
+ * Función que retorna los elementos que componen al componente Projects.
+ *
+ * @export
+ * @param {{ projects: array }} { projects } - Array de proyectos a renderizar.
+ * @returns {React.JSX}
+ */
 export default function Projects({ projects }) {
   return (
     <div id="projects_section">
-      {projects.map((arrayProject) => {
-        return <CardContainer arrayProject={arrayProject} />;
-      })}
+      {
+        /**
+         * Mapea y renderiza un array de proyectos en componentes de tarjetas.
+         * @param {Array} arrayProject - El array de proyectos a ser mapeado y renderizado.
+         * @returns {JSX.Element[]} Un array de componentes de tarjetas renderizados.
+         */
+        projects.map((arrayProject) => {
+          return <CardContainer arrayProject={arrayProject} />;
+        })
+      }
     </div>
   );
 }

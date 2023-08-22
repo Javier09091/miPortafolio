@@ -123,6 +123,11 @@ ChartJS.register(
   Legend
 );
 
+/**
+ *  Constante que contiene información acerca de la configuración del gráfico radar.
+ *  @type {object}
+ *  @const
+ */
 export const data = {
   options: {
     plugins: {
@@ -157,7 +162,11 @@ export const data = {
     },
   },
 };
-
+/**
+ * Componente que retorna un componente de la biblioteca chartjs.
+ * @param {skills: object} skills
+ * @returns {reactComponent}
+ */
 export default function RadarChart({skills}) {
   return <Radar data={skills} options={data.options} />;
 }

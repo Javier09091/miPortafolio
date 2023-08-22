@@ -5,23 +5,11 @@
 	
 ## Description  
 	Componente utilizado para mostrar una foto, iconos, e información general de un usuario.
-## Category   
-	
+
+  ## Category   
 [Visual]  
 
-## Live demo 
-	
-[code to iframe CodeSandbox]
-
-## Usage 
-	
-[example: <protvista-tooltip>  </protvista-tooltip> ]
-
 ## Props 
- photo = "",
-  name = "",
-  aboutMe = "",
-  socialNetwork = [],
 
 | Attribute      | Type | Default |         Description                                                 |
 | ---------      | ---- | ------- | --------------------------------------------------------------------|
@@ -52,7 +40,7 @@ Francisco Javier Hernandez Sanchez <l19091349@gmail.com>
 
 
 ## Dependencies
-styles: modulo de estilos que afecta solo al componentes "UserInformation".
+styles: modulo de estilos que afecta solo al componente "UserInformation".
 
 ## States
 	
@@ -65,42 +53,21 @@ styles: modulo de estilos que afecta solo al componentes "UserInformation".
 | ------ | ----------- | -------- | ------------------------------ |
 |        |             |          |                                |
 
-# Functions description
-
-## [map()]
-
-__Description:__  
-
-Es un método que se utiliza para transformar los elementos de un arreglo (array) original en un nuevo arreglo, aplicando una función dada a cada elemento.
-
-
-__Usage:__
-
-```javascript
-const newArray = arrayOriginal.map(function(element, index, array) {
-  // Código para transformar 'element'
-  return transformedElement;
-});
-```
-
-__Scope: __
-
-[Scope details]
-
-__Input Parameter:__  
-​__[Name]:__ [Description]
-__[Name]:__ [Description]
-
-
-__Return:__  
-​__[Type]:__ [Name]
-​[Description (if necessary)]
-
 
 **/
 
 import styles from "../styles/userInfo.module.css";
 
+/**
+ * Description placeholder
+ *
+ * @export
+ * @param {photo: String} photo - url de la foto del usuario.
+ * @param {name: String} name - nombre del usuario.
+ * @param {aboutMe: String} aboutMe - descripción acerca del usuario.
+ * @param {socialNetwork: array} socialNetwork - arreglo con la url de las imagenes de las redes sociales del usuario.
+ * @returns {reactComponent}
+ */
 export default function UserInformation({
   photo = "",
   name = "",
@@ -116,7 +83,17 @@ export default function UserInformation({
           src={photo}
         />
         <div className={styles.container_social}>
-          {socialNetwork.map((social) => {
+          {
+            /**   
+                Mapeo 
+                @param {social: object} - objeto 
+                @property {social.url: String} - url del sitio oficial de la red social.
+                @property {social.name} - nombre de la red social.
+                @property {social.urlLogo} - url del logo de la red social.
+
+                @returns {reactComponent}
+             */
+            socialNetwork.map((social) => {
             return (
               <a href={social.url}>
                 <img

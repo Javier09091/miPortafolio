@@ -58,42 +58,15 @@ menu.module.css: modulo de estilos css que solo se aplican al componente "Menu".
 | ------ | ----------- | -------- | ------------------------------ |
 |        |             |          |                                |
 
-# Functions description
-
-## scrollIntoView
-
-__Description:__  
-
-Desplaza el contenedor principal del elemento de forma que el elemento sobre el cual se invoca scrollIntoView() sea visible al usuario.
-
-
-__Usage:__
-
-```javascript
-element.scrollIntoView(); // Equivalente a element.scrollIntoView(true)
-element.scrollIntoView(alignToTop); // Argumentos booleanos
-element.scrollIntoView(scrollIntoViewOptions); // Argumento objeto
-```
-
-__Scope: __
-
-[Scope details]
-
-__Input Parameter:__  
-​behavior: establece la transición de la animación. Puede ser auto o smooth. Por defecto es auto.
-block: establece el alineamiento vertical. Puede ser start, center, end, o nearest. Por defecto es start.
-inline: establece el alineamiento horizontal Puede ser start, center, end, o nearest. Por defecto es nearest.
-
-
-__Return:__  void
-​__[Type]:__ [Name]
-​[Description (if necessary)]
-
 
 **/
 
 import styles from "../styles/menu.module.css";
 
+/**
+ * Componente menu, retorna los elementos para mostrar un componente Menu con 4 opciones.
+ * @returns {React.JSX}
+ */
 function Menu() {
   return (
     <div id={styles.left_bar}>
@@ -105,57 +78,115 @@ function Menu() {
       ></img>
       <div id={styles.menu_container}>
         <div id={styles.menu_options}>
-          <span onClick={() => {
-              const section = document.getElementById("section_userInformation");
-              if (section) {
-                section.scrollIntoView({
-                  behavior: "smooth",
-                  block: "end",
-                  inline: "nearest",
-                });
+          <span
+            onClick={
+              /**
+               * Desplaza la vista hacia la sección de información del usuario de manera suave.Si la sección existe en el DOM, se desplazará la vista de manera suave hacia el final de la sección.
+               * @anonymous
+               * @returns {void}
+               */
+              () => {
+                /**
+                 * Elemento HTML que con tiene la sección de la información del usuario.
+                 *
+                 * @type {HTMLElemement|null}
+                 */
+                const section = document.getElementById(
+                  "section_userInformation"
+                );
+                if (section) {
+                  section.scrollIntoView({
+                    behavior: "smooth",
+                    block: "end",
+                    inline: "nearest",
+                  });
+                }
               }
-            }}>
+            }
+          >
             <img alt="e" src="/media/img/home.png" />
             <p>Home</p>
           </span>
           <span
-            onClick={() => {
-              const section = document.getElementById("section_skills");
-              if (section) {
-                section.scrollIntoView({
-                  behavior: "smooth",
-                  block: "end",
-                  inline: "nearest",
-                });
+            onClick={
+              /**
+               * Desplaza la vista hacia la sección de skills del usuario de manera suave.Si la sección existe en el DOM, se desplazará la vista de manera suave hacia el final de la sección.
+               * @anonymous
+               * @returns {void}
+               */
+
+              () => {
+                /**
+                 * Elemento HTML que con tiene la sección de las skills del usuario.
+                 *
+                 * @type {HTMLElemement|null}
+                 */
+                const section = document.getElementById("section_skills");
+                if (section) {
+                  section.scrollIntoView({
+                    behavior: "smooth",
+                    block: "end",
+                    inline: "nearest",
+                  });
+                }
               }
-            }}
+            }
           >
             <img alt="" src="/media/img/skills.png"></img>
             <p>Habilidades</p>
           </span>
-          <span onClick={() => {
-              const section = document.getElementById("projects_section");
-              if (section) {
-                section.scrollIntoView({
-                  behavior: "smooth",
-                  block: "end",
-                  inline: "nearest",
-                });
+          <span
+            onClick={
+              /**
+               * Desplaza la vista hacia la sección de proyectos de manera suave.Si la sección existe en el DOM, se desplazará la vista de manera suave hacia el final de la sección.
+               * @anonymous
+               * @returns {void}
+               */
+              () => {
+                /**
+                 * Elemento HTML que con tiene la sección de los proyectos.
+                 *
+                 * @type {HTMLElemement|null}
+                 */
+                const section = document.getElementById("projects_section");
+                if (section) {
+                  section.scrollIntoView({
+                    behavior: "smooth",
+                    block: "end",
+                    inline: "nearest",
+                  });
+                }
               }
-            }}>
+            }
+          >
             <img alt="" src="/media/img/project.png"></img>
             <p>Proyectos</p>
           </span>
-          <span onClick={() => {
-              const section = document.getElementById("section_contactForm");
-              if (section) {
-                section.scrollIntoView({
-                  behavior: "smooth",
-                  block: "end",
-                  inline: "nearest",
-                });
+          <span
+            onClick={
+              /**
+               * Desplaza la vista hacia la sección del formulario de contacto de manera suave.Si la sección existe en el DOM, se desplazará la vista de manera suave hacia el final de la sección.
+               * @anonymous
+               * @returns {void}
+               */
+
+              () => {
+                /**
+                 * Elemento HTML que con tiene la sección del formulario de contacto.
+                 *
+                 * @type {HTMLElemement|null}
+                 */
+                const section = document.getElementById("section_contactForm");
+                if (section) {
+                  section.scrollIntoView({
+                    behavior: "smooth",
+                    block: "end",
+                    inline: "nearest",
+                  });
+                }
               }
-            }}>
+            }
+          >
             <img alt="" src="/media/img/contact.png"></img>
             <p>Contacto</p>
           </span>
