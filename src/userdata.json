@@ -8,17 +8,17 @@
 		"socialNetwork": [
 			{
 				"name": "facebook",
-				"urlLogo": "/media/img/iconFacebook.png",
+				"urlLogo": "media/img/iconFacebook.png",
 				"url": "https://www.facebook.com/error.error.404notfound"
 			},
 			{
 				"name": "instagram",
-				"urlLogo": "/media/img/icon_instagram_.png",
+				"urlLogo": "media/img/icon_instagram_.png",
 				"url": "https://www.instagram.com/jav2332_/"
 			},
 			{
 				"name": "github",
-				"urlLogo": "/media/img/icon_github.png",
+				"urlLogo": "media/img/icon_github.png",
 				"url": "https://github.com/Javier09091"
 			}
 		]
@@ -80,7 +80,7 @@
 				"name": "Intercopy",
 				"description": "Diseño y codificación de un sitio web para una papelería.",
 				"technologies": [
-					"/media/img/js.png",
+					"media/img/js.png",
 					"/media/img/css.png",
 					"/media/img/html.png",
 					"/media/img/php.png",
