@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/miPortafolio/static/css/main.47ef6264.css",
+    "main.js": "/miPortafolio/static/js/main.9adee41e.js",
+    "static/js/787.ae0d8d37.chunk.js": "/miPortafolio/static/js/787.ae0d8d37.chunk.js",
+    "static/media/javi.jpg": "/miPortafolio/static/media/javi.8fc1ff84677294f2e39c.jpg",
+    "index.html": "/miPortafolio/index.html",
+    "main.47ef6264.css.map": "/miPortafolio/static/css/main.47ef6264.css.map",
+    "main.9adee41e.js.map": "/miPortafolio/static/js/main.9adee41e.js.map",
+    "787.ae0d8d37.chunk.js.map": "/miPortafolio/static/js/787.ae0d8d37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47ef6264.css",
+    "static/js/main.9adee41e.js"
+  ]
+}
