@@ -1,0 +1,44 @@
+:root {
+  --background__color: #0b4141;
+  --menu__color: #949459;
+  --font__color: #fff;
+  --card__color1: #e6e6fa;
+  --card__color2: #ffdab9;
+  --card__color3: #ffa07a;
+  --font-titles: "IBM Plex Mono", monospace;
+  --font-text: "IBM Plex Sans", sans-serif;
+}
+
+#menu_container {
+
+  border: var(--menu__color) solid 1px;
+  background-color: var(--menu__color);
+  width: 100%;
+  height: 85vh;
+  overflow: auto;
+  
+}
+
+
+#left_bar {
+  position:fixed;
+  top: 0;
+  left: 0;
+}
+
+#logo {
+  padding: 10px;
+}
+
+
+
+#menu_options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  /* width: 100%; */
+  align-items: center;
+  text-align: center;
+}
+

@@ -1,0 +1,59 @@
+.user_container {
+  display: flex;
+  height: 100vh;
+
+}
+
+
+.container_photo_social img {
+  margin:25% 0 15%;
+}
+
+
+.container_photo_social {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+}
+
+.user_photo {
+  width: 21rem;
+  height: 24rem;
+  flex-shrink: 0;
+  border-radius: 7rem;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("/public/media/img/javi.jpg"), lightgray 0px -0.17px / 100% 117% no-repeat;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+
+
+.container_social {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.container_social a img {
+  width: 6rem;
+  height: 6rem;
+  flex-shrink: 0;
+}
+
+.title_description {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 10%;
+
+}
+
+.title_description{
+  font-size: 2rem;
+  padding: 10px;
+}
