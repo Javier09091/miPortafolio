@@ -1,6 +1,5 @@
 #projects_section {
   display: grid;
-  border: 1px saddlebrown solid;
   /* width: 100vw; */
   margin-left: 15px;
   grid-template-columns: 30% 30% 30%;

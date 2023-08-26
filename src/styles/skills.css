@@ -1,6 +1,5 @@
 
 #section_skills{
-  border: 1px solid magenta;
   display: flex;
   flex-direction: column;
   width: inherit;
