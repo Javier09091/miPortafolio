@@ -8,12 +8,12 @@
 		"socialNetwork": [
 			{
 				"name": "facebook",
-				"urlLogo": "media/img/iconFacebook.png",
+				"urlLogo": "../media/img/iconFacebook.png",
 				"url": "https://www.facebook.com/error.error.404notfound"
 			},
 			{
 				"name": "instagram",
-				"urlLogo": "media/img/icon_instagram_.png",
+				"urlLogo": "./media/img/icon_instagram_.png",
 				"url": "https://www.instagram.com/jav2332_/"
 			},
 			{
