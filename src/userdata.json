@@ -2,13 +2,13 @@
 	"_version": "0.0.1",
 	"_description": "algo",
 	"user": {
-		"photo": "/media/img/javi.jpg",
+		"photo": "media/img/javi.jpg",
 		"name": "Javier Hernandez",
 		"aboutMe": "Desarrollador web front-end. Diseño de páginas web y códificación. ",
 		"socialNetwork": [
 			{
 				"name": "facebook",
-				"urlLogo": "/media/img/iconFacebook.png",
+				"urlLogo": "media/img/iconFacebook.png",
 				"url": "https://www.facebook.com/error.error.404notfound"
 			},
 			{
@@ -81,10 +81,10 @@
 				"description": "Diseño y codificación de un sitio web para una papelería.",
 				"technologies": [
 					"media/img/js.png",
-					"/media/img/css.png",
-					"/media/img/html.png",
-					"/media/img/php.png",
-					"/media/img/figma.png"
+					"media/img/css.png",
+					"media/img/html.png",
+					"media/img/php.png",
+					"media/img/figma.png"
 				],
 				"image": "/media/img/papeleria.png"
 			},
@@ -93,13 +93,13 @@
 				"name": "Reforma 22",
 				"description": "Diseño y codificación de un sitio web para una escuela.",
 				"technologies": [
-					"/media/img/js.png",
-					"/media/img/css.png",
-					"/media/img/html.png",
-					"/media/img/php.png",
-					"/media/img/figma.png"
+					"media/img/js.png",
+					"media/img/css.png",
+					"media/img/html.png",
+					"media/img/php.png",
+					"media/img/figma.png"
 				],
-				"image": "/media/img/escuela.png"
+				"image": "media/img/escuela.png"
 			}
 		],
 		[
@@ -108,19 +108,19 @@
 				"name": "Conexión de MySQL con JAVA",
 				"description": "Codificación de un programa para conectar JAVA y MYSQL.",
 				"technologies": [
-					"/media/img/java.png",
-					"/media/img/mysql.png"
+					"media/img/java.png",
+					"media/img/mysql.png"
 				],
-				"image": "/media/img/java_bank.png"
+				"image": "media/img/java_bank.png"
 			},
 			{
 				"id": "project_04",
 				"name": "Portafolio fotografico",
 				"description": "Diseño de una página web para visualizar fotografias.",
 				"technologies": [
-					"/media/img/figma.png"
+					"media/img/figma.png"
 				],
-				"image": "/media/img/portafolio_foto.png"
+				"image": "media/img/portafolio_foto.png"
 			}
 		],
 		[
@@ -129,22 +129,22 @@
 				"name": "Calculadora",
 				"description": "Diseño y desarrollo de una calculadora básica.",
 				"technologies": [
-					"/media/img/figma.png",
-					"/media/img/js.png",
-					"/media/img/css.png",
-					"/media/img/html.png"
+					"media/img/figma.png",
+					"media/img/js.png",
+					"media/img/css.png",
+					"media/img/html.png"
 				],
-				"image": "/media/img/calculadora.png"
+				"image": "media/img/calculadora.png"
 			},
 			{
 				"id": "project_06",
 				"name": "Portafolio de proyectos",
 				"description": "Diseño y desarrollo de una página web que muestra los proyectos de un desarrollador.",
 				"technologies": [
-					"/media/img/figma.png",
-					"/media/img/react.png"
+					"media/img/figma.png",
+					"media/img/react.png"
 				],
-				"image": "/media/img/portafolio_react.png"
+				"image": "media/img/portafolio_react.png"
 			}
 		]
 	]
